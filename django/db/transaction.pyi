@@ -1,0 +1,3 @@
+# File created by w0rp
+
+def atomic(savepoint=False): ...
