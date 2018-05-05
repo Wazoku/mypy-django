@@ -5,6 +5,8 @@
 from typing import Any
 from django.utils.translation import ugettext_lazy as _
 
+from .options import Options
+
 def subclass_exception(name, parents, module, attached_to=None): ...
 
 class ModelBase(type):
@@ -18,6 +20,8 @@ class ModelState:
     def __init__(self, db=None): ...
 
 class Model:
+    _meta: Options = ...
+
     def __init__(self, *args, **kwargs): ...
     @classmethod
     def from_db(cls, db, field_names, values): ...

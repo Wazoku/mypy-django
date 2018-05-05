@@ -1,6 +1,6 @@
 from typing import *
 
-from .query_utils import Q
+from .query_utils import Q as Q
 
 ModelType = TypeVar('ModelType')
 
