@@ -1,4 +1,6 @@
-# mypy-django
+# mypy-django [![Travis CI Build Status](https://travis-ci.org/Wazoku/mypy-django.svg?branch=master)](https://travis-ci.org/Wazoku/mypy-django)
+
+
 ## Type stubs to use the mypy static type-checker with your Django projects
 
 This project includes the [PEP-484](https://www.python.org/dev/peps/pep-0484/) compatible "type stubs" for Django APIs. Using a compliant checking tool (typically, [mypy](http://mypy-lang.org/)), it allows you to document and verify more of your code. Your annotated code will look like:
