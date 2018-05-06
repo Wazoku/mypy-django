@@ -2,5 +2,5 @@
 language: python
 python: ["3.6"]
 sudo: false
-install: ["./dev-init.sh"]
+install: ["pip install -r test-requirements.txt"]
 script: ["mypy test"]
