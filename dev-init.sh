@@ -11,7 +11,5 @@ if ! [ -d ve ]; then
     python3.6 -m venv ve
 fi
 
-source ve/bin/activate
-
-pip install -q pip==9.0.3
-pip install -qr test-requirements.txt
+ve/bin/pip install -q pip==9.0.3
+ve/bin/pip install -qr test-requirements.txt
